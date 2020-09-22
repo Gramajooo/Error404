@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondo {
+    height: 100vh;
+    align-content: center;
+}
+
+.msg-content {
+    padding: 0;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    min-width: 200px;
+}
+
+.msg-error {
+    padding: 0;
+    margin: auto;
+    text-align: left;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: salmon;
+}
+
+@media all and (max-width: 768px) {
+    h1{
+        text-align: center;
+    }
+    .msg-content{
+        align-content: flex-end;
+    }
+}
+
+@media all and (max-width: 562px) {
+    h1{
+        font-size: 4rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+}
